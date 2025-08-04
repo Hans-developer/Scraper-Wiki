@@ -18,9 +18,7 @@ def scraper():
         st.write(":green[2]. Presiona Enter y te traera lo buscado")
         st.write(":green[3]. Puedes descargar el resultado en formato word")
         st.write(":green[4]. Si la cantidad de parrafos :red[No] salen al puesto es porque es toda la informacíon que hay sobre el tema")
-        st.write(":green[1].Abriendo la web")
-        st.write(":green[2].presiona los 3 puntos de la esquina superior.")
-        st.write(":green[3].Apreta en agregar a pantalla principal ENTER ¡listo!")
+        
         
     
     with tabs[1]:
@@ -33,6 +31,12 @@ def scraper():
         st.write("🙌 Hans Saldías - Analista Programador 😎")
         st.write("Espero que les sirva 😘")
         st.write("👍🤗🤗😘")
+
+    with tabs[3]:
+        st.write(":green[1].Abriendo la web")
+        st.write(":green[2].presiona los 3 puntos de la esquina superior.")
+        st.write(":green[3].Apreta en agregar a pantalla principal ENTER ¡listo!")
+
 
     st.divider()
  
