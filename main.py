@@ -76,6 +76,5 @@ def scraper():
 
         except Exception as e:
             st.error(f"Error al analizar el html {e}")
-
-
-scraper()
+if __name__ == '__main__?:
+    app = scraper()
